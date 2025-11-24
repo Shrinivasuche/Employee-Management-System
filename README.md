@@ -1,105 +1,78 @@
-🚀 Employee Management System
-Full-Stack Web Application using React JS, Spring Boot & MySQL
+# 🚀 Employee Management System
 
-This is a complete Employee Management System (EMS) built using React (Vite) for the frontend, Spring Boot for the backend, and MySQL as the database.
-It provides a clean interface to view, create, update, and delete employees.
+### Full-Stack Web Application using React JS, Spring Boot & MySQL
 
-📌 Frontend (Local URLs)
-Feature	URL
-🧾 List Employees	http://localhost:5173/
+This is a complete **Employee Management System (EMS)** built using **React (Vite)** for the frontend, **Spring Boot** for the backend, and **MySQL** as the database. It provides a clean interface to view, create, update, and delete employees.
 
-➕ Add Employee	http://localhost:5173/add-employee
+---
 
-✏️ Update Employee	http://localhost:5173/update-employee/1
+## 📁 GitHub Repository
+🔗 [https://github.com/Shrinivasuche/Employee-Management-System](https://github.com/Shrinivasuche/Employee-Management-System)
 
-(Use any employee ID in place of 1.)
+---
 
-📁 GitHub Repository
+## ✨ Features
 
-🔗 https://github.com/Shrinivasuche/Employee-Management-System
+### 👨‍💼 Employee CRUD Operations
+- **View all employees** in a list format.
+- **Add new employee** with validation.
+- **Edit existing employee** details.
+- **Delete employee** records.
+- **Auto-update** list after each action without page refresh.
 
-✨ Features
-👨‍💼 Employee CRUD Operations
+### 💾 Backend Capabilities
+- REST API built using **Spring Boot**.
+- **JPA + Hibernate** for Object-Relational Mapping (ORM).
+- **MySQL** database integration for persistent storage.
 
-View all employees
+### 🌐 Frontend
+- Built with **React (Vite)** for fast performance.
+- **React Router DOM** for seamless navigation.
+- **Axios** for handling HTTP requests.
+- **Bootstrap** for responsive and modern styling.
 
-Add new employee
+---
 
-Edit existing employee
+## 🛠️ Tech Stack
 
-Delete employee
+| Component | Technology |
+| :--- | :--- |
+| **Frontend** | React JS, Vite, React Router, Bootstrap, Axios |
+| **Backend** | Java, Spring Boot, Spring Data JPA, Hibernate |
+| **Database** | MySQL |
+| **Tools** | Maven, npm, IntelliJ IDEA, VS Code |
 
-Auto-update list after actions
+---
 
-💾 Backend Capabilities
+## ⚙️ Setup Instructions
 
-REST API using Spring Boot
+### ▶️ 1. Backend Setup
+1. Clone the repository.
+2. Configure your MySQL database in `application.properties`.
+3. Navigate to the backend folder and run the application.
 
-JPA + Hibernate for database operations
 
-MySQL database integration
-
-🌐 Frontend
-
-React (Vite)
-
-React Router DOM
-
-Axios for API calls
-
-Bootstrap styling
-
-🛠️ Tech Stack
-Frontend
-
-React JS
-
-Vite
-
-React Router
-
-Bootstrap
-
-Axios
-
-Backend
-
-Spring Boot
-
-Spring Data JPA
-
-REST API
-
-MySQL
-
-⚙️ Setup Instructions
-▶️ 1. Backend Setup
 cd ems-backend
 mvn spring-boot:run
 
-
-Backend runs on:
-
-👉 http://localhost:8080
+👉 Backend runs at: http://localhost:8080
 
 ▶️ 2. Frontend Setup
+Open a new terminal.
+
+Navigate to the frontend folder.
+
+Install dependencies and start the server.
+
 cd ems-fullstack
 npm install
 npm run dev
-
 
 Frontend runs on:
 
 👉 http://localhost:5173
 
-📡 API Endpoints (Spring Boot)
-Method	Endpoint	Description
-GET	/api/emp/employees	Fetch all employees
-POST	/api/emp/create	Add new employee
-GET	/api/emp/{id}	Get employee by ID
-PUT	/api/emp/update/{id}	Update employee
-DELETE	/api/emp/delete/{id}	Delete employee
-GET	/api/emp/email-id/{email}	Search employee by email
+
 🚧 Future Enhancements
 
 Employee search (name/email)
@@ -115,4 +88,5 @@ Improved UI layout
 👤 Author
 
 Shrinivas Uche
+
 Full-Stack Developer (React + Java Spring Boot)
