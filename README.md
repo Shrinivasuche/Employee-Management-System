@@ -53,6 +53,7 @@ This is a complete **Employee Management System (EMS)** built using **React (Vit
 
 
 cd ems-backend
+
 mvn spring-boot:run
 
 👉 Backend runs at: http://localhost:8080
@@ -65,12 +66,15 @@ Navigate to the frontend folder.
 Install dependencies and start the server.
 
 cd ems-fullstack
+
 npm install
+
 npm run dev
 
 Frontend runs on:
 
 👉 http://localhost:5173
+
 
 
 🚧 Future Enhancements
@@ -84,6 +88,7 @@ Login system (JWT authentication)
 Department/role management
 
 Improved UI layout
+
 
 👤 Author
 
